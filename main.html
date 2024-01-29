@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>YesConverter</title>
+        <script src="pako.min.js"></script>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <b><p style="color: red;" id="errortext"></p></b>
+        <input id="fileinput" type="file">
+        <button id="convert">Decode</button>
+        <input id="scale" type="range" min="1" max="20" value="1" step="1">
+        <select id="decoder">
+            <option value="0">PPM</option>
+        </select>
+        <br>
+        <canvas id="imagecanvas"></canvas>
+
+    </body>
+</html>
